@@ -1,3 +1,5 @@
+"""UVa Online Judge ID 10044: Erdos Numbers
+Run time on UVa Online Judge: 1.690 seconds"""
 import sys
 
 class TreeLevel:
@@ -100,7 +102,10 @@ def acquireScenarioInput(p,n):
                 if(commaCount % 2 == 0):
                     #Since each name has format LastName, Initial., each
                     #second comma marks the end of an author's name
-                    nameValue = nameDictionary.get(currentName)
+                    name
+                    
+                    
+                    alue = nameDictionary.get(currentName)
                     if nameValue is not None:
                         tempNameList.append(nameValue)
                     else:
