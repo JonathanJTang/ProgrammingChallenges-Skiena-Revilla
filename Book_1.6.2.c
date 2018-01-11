@@ -6,30 +6,14 @@ Run time on UVa Online Judge: 0.000 seconds*/
 int numSurroundingMines(char field[][102], int row, int column){
     /**Returns the number of mines surrounding a square.
        row and column are the indices used to access array field*/
+    int i;
     int count = 0;
-    if(field[row-1][column-1] == '*'){
-        count++;
-    }
-    if(field[row-1][column] == '*'){
-        count++;
-    }
-    if(field[row-1][column+1] == '*'){
-        count++;
-    }
-    if(field[row][column-1] == '*'){
-        count++;
-    }
-    if(field[row][column+1] == '*'){
-        count++;
-    }
-    if(field[row+1][column-1] == '*'){
-        count++;
-    }
-    if(field[row+1][column] == '*'){
-        count++;
-    }
-    if(field[row+1][column+1] == '*'){
-        count++;
+    int surroundingCoordinates[8*2] = {row-1,column-1, row-1,column, row-1,column+1, row,column-1, row,column+1, row+1,column-1, row+1,column, row+1,column+1};
+
+    for(i = 0; i < 8; i++){
+        if(field[surroundingCoordinates[2*i]][surroundingCoordinates[2*i+1]] == '*'){
+            count++;
+        }
     }
     return count;
 }
