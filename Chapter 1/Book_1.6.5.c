@@ -1,5 +1,5 @@
 /**UVa Online Judge ID 10267: Graphical Editor
-Run time on UVa Online Judge: ??? seconds*/
+Run time on UVa Online Judge: 0.000 seconds*/
 
 #include <stdio.h>
 #include <stdlib.h>
