@@ -1,5 +1,5 @@
 /**UVa Online Judge ID 10189: Minesweeper
-Run time on UVa Online Judge: 0.000 seconds*/
+Run time on UVa Online Judge displayed as: 0.000 seconds*/
 
 #include <stdio.h>
 
