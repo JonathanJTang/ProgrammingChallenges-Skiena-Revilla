@@ -1,5 +1,5 @@
 /**UVa Online Judge ID 100: The 3n + 1 Problem
-Run time on UVa Online Judge: 0.320 seconds*/
+Run time on UVa Online Judge displayed as: 0.320 seconds*/
 
 #include <stdio.h>
 
