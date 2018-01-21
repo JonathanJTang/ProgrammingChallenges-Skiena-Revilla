@@ -1,5 +1,5 @@
 """UVa Online Judge ID 10044: Erdos Numbers
-Run time on UVa Online Judge: 1.690 seconds"""
+Run time on UVa Online Judge displayed as: 1.690 seconds"""
 import sys
 
 class TreeLevel:
