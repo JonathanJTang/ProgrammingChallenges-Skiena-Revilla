@@ -1,5 +1,5 @@
 /**UVa Online Judge ID 706: LCD Display
-Run time on UVa Online Judge: 0.010 seconds*/
+Run time on UVa Online Judge displayed as: 0.010 seconds*/
 
 #include <stdio.h>
 #include <string.h>
