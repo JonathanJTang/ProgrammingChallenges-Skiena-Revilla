@@ -3,7 +3,6 @@ Run time on UVa Online Judge: 0.000 seconds*/
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #define totalNumberOfProblems  9  /*a value set by the problem*/
 #define numContestants  100  /*a value set by the problem*/
