@@ -52,7 +52,7 @@ int main()
             printf("$%.2f\n",totalDiffA);
         }
         else{
-            printf("$%0.2f\n",totalDiffB);
+            printf("$%.2f\n",totalDiffB);
         }
 
         /*Get info for next test case, resest variables*/
